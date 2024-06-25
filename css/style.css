@@ -1,0 +1,54 @@
+header{
+    background-image: url(./../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.dancing-script{
+    font-family: 'Dancing Script', cursive;
+}
+nav h1{
+    font-weight: bold;
+    font-size: 34px;
+    color: #ffffff;
+}
+.text-yellow{
+    transition: color 0.3s;
+}
+.text-yellow:hover{
+    color: #ffbe33;
+}
+.bg-dark-yellow{
+    background-color: #e69c00;
+}
+.bg-yellow:hover{
+    transition: color 0.4s;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.icons a{
+    cursor: pointer;
+}
+.food-item{
+    /* width: 33%; */
+    padding: 12px;   
+}
+.inner-food-item{
+    border-radius: 5px;
+}
+.inner-food-item .img-container{
+    background: #f1f2f3;
+    height: 225px;
+}
+.buy-icon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+}
